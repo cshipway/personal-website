@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>Connor Shipway</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<!-- Navbar, loads through JS script -->
+		<div id="navbar" class="centerdivwide"></div>
+		<script src="loadnavbar.js"></script>
+		<script src="clickableimages.js" defer></script>
+
+		<div class="centerdivwide">
+
+			<p>Note that this list isn't necessarily exhaustive, as some of my professional projects are not shareable due to NDAs.</p>
+			<p>Nonetheless, these examples do a pretty good job of representing the different types of projects I've worked on.</p>
+			<hr>
+
+			<!-- FirstModulAR -->
+			<div class="devblock" id="firstmodular">
+				<div class="leftdiv">
+					<img class="devitem1 clickable" src="images/fmarScreenshot1.png">
+					<img class="devitem2 clickable" src="images/fmarScreenshot2.png">
+					<img class="devitem3 clickable" src="images/fmarScreenshot3.png">
+					<img class="devitem2 clickable" src="images/fmarScreenshot4.png">
+					<img class="devitem3 clickable" src="images/fmarScreenshot5.png">
+				</div>
+				<div class="rightdiv">
+					<h1>FirstModulAR (WIP)</h1>
+					<p>Actively in development at NextGen Interactions, FirstModulAR is a framework for rapidly creating AR interfaces for first responders.</p>
+					<p>The project is very research-forward and emphasizes the development of "modules" -- lightweight, interconfigurable UI components that can be mixed and matched in order to create targeted software interventions, often as an aid for completing a certain discipline-specific task (e.g. navigating a burning building as a firefighter, or keeping track of the vitals data of a patient in critical condition as an EMS personnel). These interfaces can grant first responders an instant understanding of mission-critical (sometimes lifesaving) information, spatialized intuitively in their local environment.</p>
+					<p>Example modules include:</p>
+					<ul>
+						<li>A "point of interest" system which allows users to place markers in the world which designate important locations, e.g. a rally point, a civilian who needs evacuation, a hazard, etc. Points of interest are visualized spatially in the world</li>
+						<li>A map system which shows points of interest from an "overhead" view</li>
+						<li>A navigation/pathfinding system that routes the user to a selected point of interest, visualizing the path in both the world and on the map</li>
+						<li>Virtual vitals monitors which depict a medical patient's heart rate, oxygen saturation, etc.</li>
+						<li>Database lookup to cross reference a license plate with a driver's license</li>
+					</ul>
+					<p>...and many more.</p>
+					<p>Another big accomplishment with this project was the robust cross-platform support we were able to provide. AR is lagging a bit behind VR in terms of supporting common standards, so we had to do a fair bit of the heavy lifting ourselves to translate input data across several different AR platforms (Meta Quest, Microsoft HoloLens, Magic Leap 2) into a common input paradigm that we could then use to interface with the application. Not <i>all</i> features are supported across all platforms, but we were able to get pretty close.</p>
+					<p>FirstModulAR is a collaboration between NextGen Interactions and researchers from multiple universities.</p>
+					<p><a href="https://5x5.firstnet.gov/agenda/firstmodular/">Featured by PSCR 5x5 2024</a></p>
+					<p>2024</p>
+				</div>
+			</div>
+			<hr>
+
+			<!-- HazVR -->
+			<div class="devblock" id="hazvr">
+				<div class="leftdiv">
+					<iframe class="devitem1" src="https://www.youtube.com/embed/xZT89bHmBDE?si=3iPMOQR9-2dv41hM" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+					<img class="devitem2 clickable" src="images/hazVrScreenshot1.png">
+					<img class="devitem3 clickable" src="images/hazVrScreenshot3.png">
+					<img class="devitem2 clickable" src="images/hazVrScreenshot4.png">
+					<img class="devitem3 clickable" src="images/hazVrScreenshot2.png">
+				</div>
+				<div class="rightdiv">
+					<h1>HazVR</h1>
+					<p>HazVR is NextGen Interactions' flagship software application and, in many respects, one of my most sophisticated professional projects to date. The software was designed as a training tool to help firefighters and hazmat technicians learn how to use an <i>air monitor</i>, a handheld device which, when used properly, allows the user to detect dangerous vapors and gases in the environment.</p>
+					<p>The application has a number of pretty complex systems running under the hood, including:</p>
+					<ul>
+						<li>A dynamic gas simulation system that invisibly propagates gases and mixtures of gases through the simulation space in real-time</li>
+						<li>Simulated air monitors which realistically emulate the shortcomings and behaviors that make air monitors so difficult to use effectively (e.g. response times, cross-sensitivities)</li>
+						<li>3D data visualizations that allow a trainer to, in a single glance, assess how trainees used their instruments over the course of an entire training session</li>
+						<li>Networked multiplayer and a replay system which provides complete control over playback</li>
+					</ul>
+					<p>As one member of the three-man development team that developed this application, I massively contributed to each of the systems described above on all fronts -- UX and UI design, overarching software architecture and system design, and low-level technical implementation. Despite the complexity of the software's underlying systems, I took great care in making the software as intuitive as possible to use, with excellent results -- in user testing of the software, HazVR consistently received an average Net Promoter Score of 9+.</p>
+					<p>
+						<a href="https://www.nextgeninteractions.com/hazvr">Official HazVR website</a><br>
+						<a href="https://www.nist.gov/news-events/news/2023/08/immersive-hazmat-virtual-reality-training">NIST article on HazVR</a><br>
+						<a href="https://www.domesticpreparedness.com/articles/training-for-hazardous-tasks-in-virtual-environments"><i>Domestic Preparedness</i> article featuring HazVR</a><br>
+						<a href="https://5x5.firstnet.gov/agenda/hazvr-hazardous-material-training-with-virtual-reality/">Featured by PSCR 5x5 2024</a>
+					</p>
+					<p>2023</p>
+				</div>
+			</div>
+			<hr>
+
+			<!-- Paper Town VR -->
+			<div class="devblock">
+				<div class="leftdiv">
+					<iframe class="devitem1" src="https://player.vimeo.com/video/326965642" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+					<img class="devitem2 clickable" src="images/paperTown.png">
+					<img class="devitem3 clickable" src="images/paperTown2.png">
+				</div>
+				<div class="rightdiv">
+					<h1>Paper Town VR</h1>
+					<p>Interactive art installation, created as a group project during my undergrad studies. A user utilizes a VR headset to see a miniature papercraft village through a live camera. As the user turns in space, a mechanism rotates the camera in real time so as to accommodate the new viewing angle.</p>
+					<p>I was responsible for programming the physical mechanism which rotates the camera, as well as the VR-enabled Unity scene, and essentially getting the two to communicate nicely with each other.</p>
+					<p>This installation ended up getting some traction in the tech/art community, and was featured at the ACM Siggraph conference in Los Angeles, California.</p>
+					<p>
+					<a href="https://www.polyzaar.com/papertownvr">More Info</a><br>
+					<a href="https://immersive-expressions.siggraph.org/works/Paper_Town_VR.html">Featured by Siggraph</a>
+					</p>
+					<p>2017</p>
+				</div>
+			</div>
+			<hr>
+
+			<!-- Australian Safari -->
+			<div class="devblock">
+				<div class="leftdiv">
+					<iframe class="devitem1" src="https://player.vimeo.com/video/326934534" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+				</div>
+				<div class="rightdiv">
+					<h1>Australian Safari</h1>
+					<p>Augmented-reality scavenger hunt, created as a collaboration between the NCSU College of Sciences and the College of Design. Users leave the application running on their phone as they follow clues to various real-world locations on the NCSU campus. Bluetooth beacons installed at each of these locations trigger an event which displays an educational video about a unique Australian animal.</p>
+					<p><a href="https://apps.apple.com/us/app/ncsu-australian-safari/id1243579119">App Store Download</a></p>
+					<p>2017</p>
+				</div>
+			</div>
+			<hr>
+		
+		</div> <!-- end centerdiv -->
+	</body>
+</html>

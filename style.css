@@ -1,0 +1,214 @@
+@font-face{
+	font-family: "Bebas Custom";
+	src: url("fonts/BebasNeue-Regular.ttf")
+}
+
+p{
+	font-family: "Georgia", serif;
+	font-size: 14px;
+	line-height: 1.375em;
+}
+
+h1{
+	font-family: "Bebas Neue", "Bebas Custom", sans-serif;
+	margin-top: 0px;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+}
+
+a{
+	color: gray;
+}
+
+ul{
+	font-family: "Georgia", serif;
+	font-size: 14px;
+	line-height: 1.375em;
+}
+
+hr{
+	margin: 20px 0px 20px 0px;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img#logo{
+	height: 200px;
+	width: 200px;
+	padding-bottom: 25px;
+}
+
+strong{
+	font-family: "Bebas Neue", "Bebas Custom", sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.05em;
+}
+
+.sixforty{
+	width: 640px;
+}
+
+iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centerdiv{
+	margin: auto;
+	width: 640px;
+}
+
+.centerdivnarrow{
+	margin: auto;
+	width: 480px;
+}
+
+.devitem1{
+	width: 500px;
+	height: 281px;
+	padding: 0px;
+}
+
+.devitem1b{
+	width: 500px;
+	padding: 0px;
+}
+
+.devitem2{
+	float: left;
+	width: 245px;
+	height: 147px;
+	padding: 10px 5px 0px 0px;
+}
+
+.devitem3{
+	float: right;
+	width: 245px;
+	height: 147px;
+	padding: 10px 0px 0px 5px;
+}
+
+.centertext{
+	text-align: center;
+}
+
+#navbar{
+	height: 276px;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1020px) {
+	.centerdivwide{
+		margin: auto;
+		width: 1020px;
+	}
+
+	.devblock{
+		margin: auto;
+		width: 1020px;
+		overflow: hidden;
+		padding: 0px;
+	}
+	
+	.leftdiv{
+		float: left;
+		width: 500px;
+		overflow: hidden;
+		padding: 0px 10px 0px 0px;
+	}
+	
+	.rightdiv{
+		float: right;
+		width: 500px;
+		overflow: hidden;
+		padding: 0px 0px 0px 10px;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 1019px) {
+	.centerdivwide{
+		margin: auto;
+		width: 500px;
+	}
+
+	.devblock{
+		margin: auto;
+		width: 100%;
+		overflow: hidden;
+		padding: 0px;
+	}
+
+	.leftdiv{
+		float: none;
+		width: 100%;
+		overflow: hidden;
+		padding: 0px 0px 10px 0px;
+	}
+	
+	.rightdiv{
+		float: none;
+		width: 100%;
+		overflow: hidden;
+		padding: 10px 0px 0px 0px;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	.centerdivwide{
+		margin: auto;
+		width: 100%;
+	}
+
+	.devblock{
+		margin: auto;
+		width: 100%;
+		overflow: hidden;
+		padding: 0px;
+	}
+
+	.leftdiv{
+		float: none;
+		width: 100%;
+		overflow: hidden;
+		padding: 0px 0px 10px 0px;
+	}
+	
+	.rightdiv{
+		float: none;
+		width: 100%;
+		overflow: hidden;
+		padding: 10px 0px 0px 0px;
+	}
+
+	.devitem1{
+		width: 100%;
+		height: auto;
+		padding: 0px 0px 10px 0;
+	}
+	
+	.devitem1b{
+		width: 100%;
+		padding: 0px;
+	}
+	
+	.devitem2{
+		display: none;
+		float: none;
+		width: 100%;
+		height: auto;
+		padding: 0px 0px 10px 0px;
+	}
+	
+	.devitem3{
+		display: none;
+		float: none;
+		width: 100%;
+		height: auto;
+		padding: 0px 0px 10px 0px;
+	}
+}
